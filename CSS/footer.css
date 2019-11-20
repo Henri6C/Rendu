@@ -1,0 +1,71 @@
+/* Footer */
+.basdepage{
+    background: #152F4F;
+    color: white;}
+.footer {    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;}
+
+@media all and (max-width: 576px) {
+.footer{flex-wrap:wrap}
+.col-left{flex : 0 0 100% !important}
+.col-mid{flex : 0 0 50% !important;
+max-width: 100%!important}
+.col-right{flex : 0 0 50% !important;
+max-width: 100%!important}
+}
+
+
+.m-0 {margin: 0!important}
+.p-0 {padding: 0!important}
+.margt-4 { margin-top: 3rem!important;}
+.margt-0 {margin-top: 0!important;}
+.padb-4 { padding-bottom: 3rem!important;}
+.padt-4 { padding-top: 3rem!important;}
+.padr-4{padding-right: 3rem!important;}
+
+.col{flex-grow: 1;}
+
+.col-left{flex: 0 0 41.666667%;
+  max-width: 41.666667%%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;}
+
+.col-mid{flex: 0 0 25%;
+max-width: 25%;
+position: relative;
+width: 100%;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;}
+
+.col-right{flex: 0 0 33%;
+    max-width: 33%;
+    position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;}
+
+  .footer .about-company i {
+      font-size: 25px;
+   }
+  .footer .about-company a{
+     color:white;
+   }
+
+  .footer .projects
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+    }
+
+
+.location i{font-size: 20px;}
+
+  .copyright p{border-top:2px solid rgba(255,255,255,.1);}
+}

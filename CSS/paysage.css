@@ -1,0 +1,44 @@
+
+@media screen and (min-width: 1440px) {
+  /* Sidebar */
+  .s-sidebar__trigger {
+    width: 4em;
+  }
+
+  .s-sidebar__nav {
+    width: 4em;
+    left: 0;
+  }
+
+  .s-sidebar__nav-link{
+    font-size: 3em!important
+    width: 3em;
+    height: 3em;
+  }
+
+  .s-sidebar__nav:hover,
+  .s-sidebar__nav:focus,
+  .s-sidebar__trigger:hover+.s-sidebar__nav,
+  .s-sidebar__trigger:focus+.s-sidebar__nav {
+  width: 250px;
+  }
+
+.s-layout{width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 125%}
+
+.row {
+    display:block;
+    clear:both;
+    flex-wrap: wrap;
+  }
+
+  p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+}
